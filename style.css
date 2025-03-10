@@ -237,5 +237,42 @@ summary {
 }
 
 .signUpContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
     width: 70%
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    opacity: 50%;
+}
+
+.logo > p{
+    color: white;
+
+}
+
+img{
+ 
+    width: 100px;
+    height: 100px;
+    
+}
+
+fieldset{
+    display: flex;
+
+    flex-wrap: wrap;
+    appearance: none;
+    border: none;
+}
+
+fieldset div{
+    width: 50%;
 }
