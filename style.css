@@ -221,3 +221,21 @@ Add the correct display in Chrome and Safari.
 summary {
 	display: list-item;
 }
+
+/* --------------------------------------------------------------------- */
+
+.main {
+    display: flex;
+    
+}
+
+.sidebar {
+    width: 30%;
+    height: 100vh;
+    background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
+    
+}
+
+.signUpContent {
+    width: 70%
+}
