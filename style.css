@@ -246,11 +246,14 @@ summary {
 
 
 .logo {
+    position: relative;
+    top: 175px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: black;
-    opacity: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 0;
 }
 
 .logo > p{
@@ -267,7 +270,6 @@ img{
 
 fieldset{
     display: flex;
-
     flex-wrap: wrap;
     appearance: none;
     border: none;
