@@ -240,9 +240,11 @@ summary {
 }
 
 .sidebar {
-    width: 35%;
+    min-width: 35%;
+	max-width: 40%;
     height: 100vh;
-    background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
+    background-image: url(big.jpg);
+	background-size: 100%;
     
 }
 
@@ -250,7 +252,6 @@ summary {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
     width: 65%;
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: #F9F8F8;
@@ -259,7 +260,7 @@ summary {
 
 .logo {
     position: relative;
-    top: 200px;
+    top: 162px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -305,7 +306,7 @@ fieldset{
     flex-wrap: wrap;
     appearance: none;
     border: none;
-	width: 60%;
+	width: 65%;
 	
 }
 
@@ -327,7 +328,7 @@ legend {
 
 .spacer{
 	max-width: 80%;
-	padding-bottom: 50px;
+	padding-bottom: 30px;
 	background-color: #F9F8F8;
 }
 .spacer p{
@@ -345,6 +346,7 @@ input{
 	outline: none;
 	border-color: #E5E7EB;
 	border-radius: 5px;
+	height: 35px;
 }
 
 input:focus{
