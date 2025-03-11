@@ -259,7 +259,7 @@ summary {
 
 .logo {
     position: relative;
-    top: 175px;
+    top: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -271,17 +271,26 @@ summary {
 
 .logo > p{
 	font-family: 'Norse';
-	font-size: 5rem;
+	font-size: 5.8rem;
     color: white;
 	margin: 10px 0;
-	
 }
 
 img{
- 
-    width: 80px;
-    height: 100px;
-    
+    width: 100px;
+    height: 120px;
+}
+
+.credit	{
+	text-align: center;
+	color: white;
+	position: relative;
+	top: 660px;
+	opacity: 70%;
+}
+
+.credit a{
+	color: white;
 }
 
 form {
@@ -307,6 +316,7 @@ fieldset, .spacer {
 fieldset div{
     width: 50%;
 	padding: 5px 0;
+	margin: 5px 0;
 }
 
 legend {
@@ -359,8 +369,9 @@ button{
 	font-weight: bold;
 	background-color: #596D48;
 	color: white;
-	padding: 10px 50px;
+	padding: 15px 50px;
 	border-radius: 10px;
+	box-shadow: 0 4px 8px -2px silver;
 }
 
 form + .spacer{
@@ -377,3 +388,4 @@ form + .spacer{
 	font-weight: bold;
 	color: #596D48;
 }
+
