@@ -1,4 +1,4 @@
-/*! modern-normalize v3.0.1 | MIT License | https://github.com/sindresorhus/modern-normalize */
+/* ! modern-normalize v3.0.1 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
 /*
 Document
@@ -335,8 +335,11 @@ input{
 }
 
 input:focus{
-	border-color: #F5AB00;
+	outline: none;
+	border: 2px solid #0075C4;
+	/* border-color: #0075C4; */
 }
+
 label{
 	color: #2F4550;
 	font-weight: bold;
