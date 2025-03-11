@@ -9,6 +9,16 @@ Document
 Use a better box model (opinionated).
 */
 
+@font-face {
+    font-family: 'Norse';
+    src: url('fonts/Norse-Bold.woff2') format('woff2'),
+        url('fonts/Norse-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 *,
 ::before,
 ::after {
@@ -230,7 +240,7 @@ summary {
 }
 
 .sidebar {
-    width: 30%;
+    width: 35%;
     height: 100vh;
     background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
     
@@ -241,7 +251,9 @@ summary {
     flex-direction: column;
     justify-content: center;
     /* align-items: center; */
-    width: 70%
+    width: 65%;
+
+	background-color: #F9F8F8;
 }
 
 
@@ -253,19 +265,28 @@ summary {
     justify-content: center;
     background-color: black;
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px 0;
+    padding: 0;
+	margin: 0;
 }
 
 .logo > p{
+	font-family: 'Norse';
+	font-size: 5rem;
     color: white;
-
+	margin: 10px 0;
+	
 }
 
 img{
  
-    width: 100px;
+    width: 80px;
     height: 100px;
     
+}
+
+form {
+	padding: 20px 0;
+	background-color: white;
 }
 
 fieldset{
@@ -273,8 +294,36 @@ fieldset{
     flex-wrap: wrap;
     appearance: none;
     border: none;
+	width: 55%;
+	
+}
+
+fieldset, .spacer {
+	padding-left: 50px;
 }
 
 fieldset div{
     width: 50%;
+}
+
+legend {
+	padding: 10px 0;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+.spacer{
+	max-width: 80%;
+	padding-bottom: 50px;
+	background-color: #F9F8F8;
+}
+.spacer p{
+	font-size: 1.5rem;
+	width: 80%;
+	text-wrap: wrap;
+	font-weight: bold;
+}
+
+input, label {
+	display: block;
 }
